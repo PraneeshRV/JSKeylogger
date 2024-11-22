@@ -50,17 +50,17 @@ function handlekeyPress(event){
 
     //handle special keys
     const specialKey = getSpecialKey(event.key);
-    if (specialKey)
+    if (specialKey){
         formattedKey = `<${event.key}>`;
-    else if (event.key === 'Enter')
+    } else if (event.key === 'Enter'){
         formattedKey = `<Enter>`;
-    else if (event.key.length=2 && event.key.startsWith('F'))
+    }else if (event.key.length=2 && event.key.startsWith('F')){
         formattedKey = `<${event.key}>`;
-    else if (isAlphanumeric(event.key))
+    }else if (isAlphanumeric(event.key)){
         formattedKey = event.key;
-    else 
+    }else {
         formattedKey = `<${event.key}>`;
-
+    }
     
 
 const activeModifiers = Object.entries(modifierKeys)
