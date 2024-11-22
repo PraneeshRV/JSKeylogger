@@ -1,0 +1,99 @@
+{
+    "specialKeys": {
+        "modifier_keys": {
+            "enter": "[ENTER]",
+            "alt": "[ALT]",
+            "shift": "[SHIFT]",
+            "ctrl": "[CTRL]",
+            "caps": "[CAPS_LOCK]",
+            "tab": "[TAB]",
+            "fn": "[FN]",
+            "esc": "[ESC]"
+        },
+        "space_navigation": {
+            "space": "[SPACE]",
+            "backspace": "[BACKSPACE]", 
+            "delete": "[DELETE]",
+            "insert": "[INSERT]",
+            "home": "[HOME]",
+            "end": "[END]",
+            "pageup": "[PAGE_UP]", 
+            "pagedown": "[PAGE_DOWN]",
+            "arrowup": "[UP_ARROW]",
+            "arrowdown": "[DOWN_ARROW]", 
+            "arrowleft": "[LEFT_ARROW]",
+            "arrowright": "[RIGHT_ARROW]"
+        },
+        "function_keys": {
+            "f1": "[F1]",
+            "f2": "[F2]", 
+            "f3": "[F3]",
+            "f4": "[F4]", 
+            "f5": "[F5]",
+            "f6": "[F6]",
+            "f7": "[F7]",
+            "f8": "[F8]", 
+            "f9": "[F9]", 
+            "f10": "[F10]",
+            "f11": "[F11]", 
+            "f12": "[F12]"
+        },
+        "numeric_keypad": {
+            "numlock": "[NUM_LOCK]",
+            "numpad0": "[NUMPAD_0]",
+            "numpad1": "[NUMPAD_1]",
+            "numpad2": "[NUMPAD_2]",
+            "numpad3": "[NUMPAD_3]",
+            "numpad4": "[NUMPAD_4]",
+            "numpad5": "[NUMPAD_5]", 
+            "numpad6": "[NUMPAD_6]",
+            "numpad7": "[NUMPAD_7]",
+            "numpad8": "[NUMPAD_8]",
+            "numpad9": "[NUMPAD_9]",
+            "numpadadd": "[NUMPAD_ADD]",
+            "numpadsubtract": "[NUMPAD_SUBTRACT]",
+            "numpadmultiply": "[NUMPAD_MULTIPLY]",
+            "numpaddivide": "[NUMPAD_DIVIDE]", 
+            "numpadenter": "[NUMPAD_ENTER]",
+            "numpaddecimal": "[NUMPAD_DECIMAL]"
+        },
+        "symbols_punctuation": {
+            "backquote": "[GRAVE_ACCENT]",
+            "minus": "[HYPHEN]", 
+            "equal": "[EQUALS]",
+            "bracketleft": "[LEFT_BRACKET]",
+            "bracketright": "[RIGHT_BRACKET]",
+            "semicolon": "[SEMICOLON]",
+            "quote": "[APOSTROPHE]", 
+            "comma": "[COMMA]", 
+            "period": "[PERIOD]",
+            "slash": "[FORWARD_SLASH]",
+            "backslash": "[BACKSLASH]"
+        },
+        "system_keys": {
+            "printscreen": "[PRINT_SCREEN]",
+            "scrolllock": "[SCROLL_LOCK]", 
+            "pause": "[PAUSE]"
+        },
+        "multimedia_keys": {
+            "volumeup": "[VOLUME_UP]",
+            "volumedown": "[VOLUME_DOWN]", 
+            "volumemute": "[MUTE]",
+            "playpause": "[PLAY_PAUSE]", 
+            "stop": "[STOP]", 
+            "nexttrack": "[NEXT_TRACK]",
+            "prevtrack": "[PREVIOUS_TRACK]"
+        },
+        "browser_keys": {
+            "browserback": "[BROWSER_BACK]", 
+            "browserforward": "[BROWSER_FORWARD]", 
+            "browserrefresh": "[BROWSER_REFRESH]", 
+            "browserhome": "[BROWSER_HOME]"
+        },
+        "power_keys": {
+            "power": "[POWER]", 
+            "sleep": "[SLEEP]", 
+            "wake": "[WAKE]"
+        }
+    }
+}

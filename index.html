@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Basic Keylogger</title>
+    <link rel="stylesheet" href="style.css"/> 
+</head>
+<body>
+    <header>
+        <h1>Basic Keylogger</h1>
+    </header>
+    <div class="card">
+        <div class="btn">
+        <button id="startBtn"><b>Start Recording</b></button>
+        <button id="stopBtn" disabled><b>Stop Recording</b></button>
+        <button id="clearBtn"><b>Clear Log</b></button><br/>
+    </div>
+        <p id="status">Press Start to begin recording your keystrokes</p>
+        <textarea id="logArea" readonly></textarea>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
