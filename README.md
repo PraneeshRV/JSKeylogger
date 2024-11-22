@@ -1,5 +1,4 @@
 ## A simple example for a Keylogger in a website written in Javascript <br/>
-<<<<<<< HEAD
 
 ### working example: https://praneeshrv.github.io/JSKeylogger/
 
@@ -16,6 +15,3 @@ To use this example, simply open the `index.html` file in a web browser. The key
 ## Disclaimer
 
 This code is intended for educational purposes only. Please do not use it for malicious activities. Always respect user privacy and obtain consent before logging any keystrokes.
-=======
-### working example: https://praneeshrv.github.io/JSKeylogger/
->>>>>>> 0577a9e0a8094a2bf92113c70d796b634e0acfee
