@@ -37,7 +37,7 @@ function getSpecialKey(key){
     return null;
 }
 
-function handlekeyPress(event){
+function handleKeyPress(event){
     if (!isRecording) return;
 
     let formattedKey = '';
@@ -54,7 +54,7 @@ function handlekeyPress(event){
         formattedKey = `<${event.key}>`;
     } else if (event.key === 'Enter'){
         formattedKey = `<Enter>`;
-    }else if (event.key.length=2 && event.key.startsWith('F')){
+    }else if (event.key.length === 2 && event.key.startsWith('F')){
         formattedKey = `<${event.key}>`;
     }else if (isAlphanumeric(event.key)){
         formattedKey = event.key;
@@ -85,7 +85,7 @@ startBtn.addEventListener('click', ()=>{
     isRecording=true;
     startBtn.disabled=true;
     stopBtn.disabled=false;
-    status.textcontent= 'Recording keystrokes... Press Stop to end recording';
+    status.textContent= 'Recording keystrokes... Press Stop to end recording';
     document.addEventListener('keydown', handleKeyPress);
 });
 
@@ -93,7 +93,7 @@ stopBtn.addEventListener('click', ()=>{
     isRecording=false;
     startBtn.disabled=false;
     stopBtn.disabled=true;
-    status.textcontent= 'Recording stopped';
+    status.textContent= 'Recording stopped';
     document.removeEventListener('keydown', handleKeyPress);
 });
 
