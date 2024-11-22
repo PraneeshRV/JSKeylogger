@@ -76,6 +76,30 @@ textarea.value += formattedKey;
 textarea.scrollTop = textarea.scrollHeight;
 
 //reset modifier keys
-
+Object.keys(modifierKeys).forEach(key => modifierKeys[key]=false);
 
 }
+
+//Button Handlers
+startBtn.addEventListener('click', ()=>{
+    isRecording=true;
+    startBtn.disabled=true;
+    stopBtn.disabled=false;
+    status.textcontent= 'Recording keystrokes... Press Stop to end recording';
+    document.addEventListener('keydown', handleKeyPress);
+});
+
+stopBtn.addEventListener('click', ()=>{
+    isRecording=false;
+    startBtn.disabled=false;
+    stopBtn.disabled=true;
+    status.textcontent= 'Recording stopped';
+    document.removeEventListener('keydown', handleKeyPress);
+});
+
+clearBtn.addEventListener('click', ()=>{
+    textarea.value='';
+    status.textContent = isRecording ? 
+                'Recording keystrokes... Press Stop to end recording' : 
+                'Press Start to begin recording keystrokes';
+});
